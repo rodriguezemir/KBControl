@@ -18,15 +18,6 @@ practice servers, PvP balancing, and custom knockback experiments.
 - Use `/knockback` or the `/kb` alias to inspect, change, or reload multipliers.
 - Persist command changes back into `config.yml`.
 - Filter velocity packets using a short-lived player damage marker.
-- Require the `customkb.command.knockback` permission for all commands.
-
-## Keywords / tags
-
-`minecraft-plugin`, `papermc`, `paper-plugin`, `pvp`, `knockback`,
-`custom-knockback`, `kbcontrol`, `packet-events`, `minecraft-pvp`
-
-Suggested GitHub topics: `minecraft-plugin`, `papermc`, `pvp`, `knockback`,
-`paper-plugin`, `packetevents`.
 
 ## Dependencies
 
