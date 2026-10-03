@@ -1,5 +1,5 @@
 main: "site.zvolcan.customkb.Main"
-name: "CustomKB"
+name: "KBControl"
 version: "${VERSION}"
 api-version: "26.1.2"
 author: zvolcan

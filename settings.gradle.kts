@@ -1,1 +1,1 @@
-rootProject.name = "CustomKB"
+rootProject.name = "KBControl"
