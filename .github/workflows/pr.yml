@@ -21,7 +21,7 @@ jobs:
     strategy:
       matrix:
         os: [ ubuntu-latest, windows-latest ]
-        java: [ 25 ]
+        java: [ 21 ]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout code

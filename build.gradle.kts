@@ -24,7 +24,7 @@ version = (if (!hasProperty("ver")) {
     if (ver.startsWith("v") && !ver.lowercase().contains("-rc-")) base else "$base-SNAPSHOT"
 }).uppercase()
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 repositories {
     maven {
@@ -65,8 +65,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:26.1.2.build.72-stable")
-    compileOnly("com.github.retrooper:packetevents-spigot:2.13.0")
+    compileOnly("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
+    compileOnly("com.github.retrooper:packetevents-spigot:2.14.0")
 }
 
 tasks.processResources {
