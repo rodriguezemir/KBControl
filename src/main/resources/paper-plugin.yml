@@ -1,7 +1,7 @@
 main: "site.zvolcan.customkb.Main"
 name: "KBControl"
 version: "${VERSION}"
-api-version: "26.1.2"
+api-version: "1.21.1"
 author: zvolcan
 description: "A custom knockback plugin for PaperMC"
 

@@ -1,7 +1,7 @@
 # KBControl — Minecraft PvP Knockback Control for Paper
 
-![Java 25](https://img.shields.io/badge/Java-25-blue)
-![Paper API 26.1.2](https://img.shields.io/badge/Paper%20API-26.1.2-2ea44f)
+![Java 21](https://img.shields.io/badge/Java-21-blue)
+![Paper API 1.21.1](https://img.shields.io/badge/Paper%20API-1.21.1-2ea44f)
 ![License GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-orangered)
 
 KBControl is a small PaperMC PvP plugin for controlling combat knockback. It
@@ -165,7 +165,7 @@ This project uses the Gradle wrapper.
 ./gradlew build --stacktrace
 ```
 
-The configured CI build runs the same Gradle build on Java 25 for Ubuntu and
+The configured CI build runs the same Gradle build on Java 21 for Ubuntu and
 Windows. No test source files are currently present in `src/`; the Gradle build
 is still the determinable repository check.
 
